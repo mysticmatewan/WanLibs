@@ -1,0 +1,67 @@
+2024-09-29 03:50:50.982 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[GET:/wanlibs/].
+2024-09-29 03:52:44.591 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[POST:/wanlibs/].
+2024-09-29 03:52:47.064 127.0.0.1       [ERROR][Installer\Controller\SiteInstallAction:action] Couldn't connect to database: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+KAASoft\Util\Exception\DatabaseConnectException: Couldn't connect to database: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known.  in E:\xampp\htdocs\wanlibs\private\KAASoft\Database\KAASoftDatabase.php:94
+Stack trace:
+#0 E:\xampp\htdocs\wanlibs\private\KAASoft\Database\KAASoftDatabase.php(107): KAASoft\Database\KAASoftDatabase->__construct(Object(LoggerRoot))
+#1 E:\xampp\htdocs\wanlibs\private\Installer\Controller\SiteInstallAction.php(286): KAASoft\Database\KAASoftDatabase::getInstance(Object(LoggerRoot))
+#2 E:\xampp\htdocs\wanlibs\private\Installer\Controller\SiteInstallAction.php(67): Installer\Controller\SiteInstallAction->install()
+#3 E:\xampp\htdocs\wanlibs\private\KAASoft\Controller\ActionBase.php(66): Installer\Controller\SiteInstallAction->action(NULL)
+#4 [internal function]: KAASoft\Controller\ActionBase->processRequest()
+#5 E:\xampp\htdocs\wanlibs\index.php(132): call_user_func(Array)
+#6 E:\xampp\htdocs\wanlibs\index.php(152): KAASoft\Index->run()
+#7 {main}
+2024-09-29 03:52:47.302 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[GET:/wanlibs/].
+2024-09-29 03:53:22.618 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[POST:/wanlibs/].
+2024-09-29 03:53:22.626 127.0.0.1       [ERROR][Installer\Controller\SiteInstallAction:action] Couldn't connect to database: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+KAASoft\Util\Exception\DatabaseConnectException: Couldn't connect to database: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in E:\xampp\htdocs\wanlibs\private\KAASoft\Database\KAASoftDatabase.php:94
+Stack trace:
+#0 E:\xampp\htdocs\wanlibs\private\KAASoft\Database\KAASoftDatabase.php(107): KAASoft\Database\KAASoftDatabase->__construct(Object(LoggerRoot))
+#1 E:\xampp\htdocs\wanlibs\private\Installer\Controller\SiteInstallAction.php(286): KAASoft\Database\KAASoftDatabase::getInstance(Object(LoggerRoot))
+#2 E:\xampp\htdocs\wanlibs\private\Installer\Controller\SiteInstallAction.php(67): Installer\Controller\SiteInstallAction->install()
+#3 E:\xampp\htdocs\wanlibs\private\KAASoft\Controller\ActionBase.php(66): Installer\Controller\SiteInstallAction->action(NULL)
+#4 [internal function]: KAASoft\Controller\ActionBase->processRequest()
+#5 E:\xampp\htdocs\wanlibs\index.php(132): call_user_func(Array)
+#6 E:\xampp\htdocs\wanlibs\index.php(152): KAASoft\Index->run()
+#7 {main}
+2024-09-29 03:53:22.713 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[GET:/wanlibs/].
+2024-09-29 03:55:32.990 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[POST:/wanlibs/].
+2024-09-29 03:55:32.997 127.0.0.1       [ERROR][Installer\Controller\SiteInstallAction:action] Couldn't connect to database: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+KAASoft\Util\Exception\DatabaseConnectException: Couldn't connect to database: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in E:\xampp\htdocs\wanlibs\private\KAASoft\Database\KAASoftDatabase.php:94
+Stack trace:
+#0 E:\xampp\htdocs\wanlibs\private\KAASoft\Database\KAASoftDatabase.php(107): KAASoft\Database\KAASoftDatabase->__construct(Object(LoggerRoot))
+#1 E:\xampp\htdocs\wanlibs\private\Installer\Controller\SiteInstallAction.php(286): KAASoft\Database\KAASoftDatabase::getInstance(Object(LoggerRoot))
+#2 E:\xampp\htdocs\wanlibs\private\Installer\Controller\SiteInstallAction.php(67): Installer\Controller\SiteInstallAction->install()
+#3 E:\xampp\htdocs\wanlibs\private\KAASoft\Controller\ActionBase.php(66): Installer\Controller\SiteInstallAction->action(NULL)
+#4 [internal function]: KAASoft\Controller\ActionBase->processRequest()
+#5 E:\xampp\htdocs\wanlibs\index.php(132): call_user_func(Array)
+#6 E:\xampp\htdocs\wanlibs\index.php(152): KAASoft\Index->run()
+#7 {main}
+2024-09-29 03:55:33.089 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[GET:/wanlibs/].
+2024-09-29 03:55:43.680 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'installer'[POST:/wanlibs/].
+2024-09-29 03:55:52.346 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] Applying file: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v1.sql
+2024-09-29 03:55:54.327 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] File applied: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v1.sql
+2024-09-29 03:55:54.328 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] Applying file: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v2.sql
+2024-09-29 03:55:55.177 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] File applied: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v2.sql
+2024-09-29 03:55:55.178 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] Applying file: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v3.sql
+2024-09-29 03:55:56.885 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] File applied: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v3.sql
+2024-09-29 03:55:56.886 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] Applying file: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v4.sql
+2024-09-29 03:55:56.967 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] File applied: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v4.sql
+2024-09-29 03:55:56.969 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] Applying file: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v5.sql
+2024-09-29 03:56:00.456 127.0.0.1       [INFO][Installer\Controller\SiteInstallAction:update] File applied: E:\xampp\htdocs\wanlibs\installer\library_cms_schema_update_v5.sql
+2024-09-29 03:56:00.938 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[GET:/wanlibs/admin/login].
+2024-09-29 03:56:14.102 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[POST:/wanlibs/admin/login].
+2024-09-29 03:56:14.312 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/wanlibs/admin/].
+2024-09-29 03:56:49.963 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/wanlibs/admin/].
+2024-09-29 03:57:11.111 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/wanlibs/admin/].
+2024-09-29 03:57:14.015 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'bookListView'[GET:/wanlibs/admin/books].
+2024-09-29 03:57:20.422 127.0.0.1       [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'bookCreate'[GET:/wanlibs/admin/book/create/].
+2024-09-29 03:58:40.318 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'publicIndex'[GET:/wanlibs/].
+2024-09-29 03:58:45.462 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'bookListViewPublic'[GET:/wanlibs/books].
+2024-09-29 03:58:50.062 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'authorListViewPublic'[GET:/wanlibs/authors].
+2024-09-29 03:58:51.251 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'pageViewPublic'[GET:/wanlibs/contact-us].
+2024-09-29 03:58:56.913 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'postListViewPublic'[GET:/wanlibs/blog].
+2024-09-29 03:58:58.550 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'pageViewPublic'[GET:/wanlibs/contact-us].
+2024-09-29 03:58:59.224 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'authorListViewPublic'[GET:/wanlibs/authors].
+2024-09-29 03:58:59.756 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'bookListViewPublic'[GET:/wanlibs/books].
+2024-09-29 03:59:01.307 127.0.0.1       [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'postListViewPublic'[GET:/wanlibs/blog].
